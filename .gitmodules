@@ -1,0 +1,9 @@
+[submodule "janus"]
+	path = janus
+	url = git://github.com/carlhuda/janus.git
+[submodule "pivotal-vim"]
+	path = pivotal-vim
+	url = git://github.com/pivotalcommon/vim-config.git
+[submodule "yadr"]
+	path = yadr
+	url = git://github.com/skwp/dotfiles.git
