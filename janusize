@@ -1,0 +1,8 @@
+#!/bin/bash
+
+./backup
+
+current_directory=$(pwd)
+ln -s $current_directory/janus/janus/vim/vimrc ~/.vimrc
+ln -s $current_directory/janus/janus/vim/gvimrc ~/.gvimrc
+mkdir ~/.vim

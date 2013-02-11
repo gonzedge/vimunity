@@ -1,0 +1,8 @@
+#!/bin/bash
+
+./backup
+
+current_directory=$(pwd)
+echo "" > ~/.gvimrc
+ln -s $current_directory/yadr/vimrc ~/.vimrc
+ln -s $current_directory/yadr/vim ~/.vim

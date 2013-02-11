@@ -1,0 +1,17 @@
+#!/bin/bash
+
+if [ -d ~/.vim.backup ]; then
+  rm -rf ~/.vim.backup
+fi
+
+if [ -f ~/.vimrc.backup ]; then
+  rm ~/.vimrc.backup
+fi
+
+if [ -f ~/.gvimrc.backup ]; then
+  rm ~/.gvimrc.backup
+fi
+
+mv ~/.vim ~/.vim.backup
+mv ~/.vimrc ~/.vimrc.backup
+mv ~/.gvimrc ~/.gvimrc.backup
